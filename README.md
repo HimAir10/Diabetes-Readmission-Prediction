@@ -44,9 +44,11 @@ Evaluation was done using **5-fold cross-validation** with metrics such as **Acc
 
 ## 📊 Results & Analysis  
 The models were evaluated using 5-fold cross-validation on the diabetic dataset.
+
 Random Forest achieved the best overall performance with accuracy = 0.8719 and AUC = 0.5854, showing strong generalization.
 Naïve Bayes recorded lower accuracy (0.5818) but the highest recall = 0.4321, useful for identifying actual readmissions.
 LDA and SVM performed similarly (accuracy = 0.8169, AUC ≈ 0.53), while KNN achieved accuracy = 0.8140.
+
 Overall, **Random Forest** emerged as the most reliable and balanced model, whereas Naïve Bayes offered greater sensitivity for medical prediction tasks.
 
 ---
